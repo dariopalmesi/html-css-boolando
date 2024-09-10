@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --bool-primary-color: #ff6900;
+}
+
+/* #region utility */
+
+.bg-primary-color {
+    background-color: var(--bool-primary-color);
+    height: 3rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 0.30rem;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.img-header {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 50%;    
+}
